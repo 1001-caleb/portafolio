@@ -1,9 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600&family=Inter:wght@400;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500&family=Raleway:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
+    min-height: 100vh;
     font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#2b1055, #7597de);
+    overflow-x: hidden;
+}
+
+/* .container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+} */
+
+.hero__nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    z-index: 10000;
+}
+
+.nav__img{
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav__cta{
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 15px;
+    border-radius: 20px;
+    
+}
+
+.nav__cta:hover{
+    background-color: #fff;
+    color: #2b1055;
+}
+
+.parallax{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.parallax::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #1c0522, transparent);
+    z-index: 100;
+}
+
+.parallax__images{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   pointer-events: none;
+}
+
+.parallax__images#moon{
+    mix-blend-mode: screen;
+}
+
+.parallax__images#mountains_front{
+    z-index: 10;
+}
+
+.parallax__text{
+    right: -350px;
+    position: absolute;
+    font-size: 7.5vw;
+    color: #fff;
+    white-space: nowrap;
+    z-index: 9;
+}
+
+.parallax__btn{
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1rem;
+    display: inline-block;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.about{
+    padding: 5px 50px;
+    position: relative;
+    height: 100vh;
+    background: #1c0522;
+    
+}
+
+.about__title{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.about__paragraph{
+    font-size: 1.5rem;
+    color: #fff;
 }
