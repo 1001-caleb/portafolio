@@ -174,3 +174,13 @@ body{
     font-size: 1.5rem;
     color: #fff;
 }
+
+@media screen and (max-width: 768px){
+    .about{
+        padding: 2px 25px;
+    }
+    .parallax__text{
+        font-size: 3rem;
+    }
+    
+}
