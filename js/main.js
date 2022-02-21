@@ -16,3 +16,12 @@ window.addEventListener("scroll", function(){
     text.style.marginTop = value *1.5 + "px"
     btn.style.marginTop = value *1.5 + "px"
 })
+
+//menu responsive
+const menu = document.getElementById("nav__menu");
+const nav = document.getElementById("hero__nav");
+
+menu.addEventListener("click", function(){
+    nav.classList.toggle("nav__show")
+    console.log("click")
+})

@@ -14,12 +14,6 @@ body{
     overflow-x: hidden;
 }
 
-/* .container{
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-} */
-
 .hero__nav{
     position: fixed;
     top: 0;
@@ -27,9 +21,55 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    background-color: #2b1055;
+    flex-direction: column;
     align-items: center;
     padding: 5px 50px;
     z-index: 10000;
+    transform: translateY(-100%);
+    transition: transform .3s;
+}
+
+.nav__links{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 768px){
+    .hero__nav{
+        flex-direction: row;
+        background-color: transparent;
+        transform: translateY(0);
+    }
+    .nav__links{
+        flex-direction: row;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .nav__menu{
+        display: none;
+    }
+    
+}
+
+.nav__menu{
+    width: 40px;
+    position: fixed;
+    top: .7rem;
+    right: 1.5rem;
+    cursor: pointer;
+    filter: invert(1);
+    z-index: 1000000;
+}
+
+.menu__img{
+    max-width: 100%;
+}
+
+.nav__show{
+    transform: translateY(0);
 }
 
 .nav__img{
