@@ -95,6 +95,7 @@ body{
 .nav__cta:hover{
     background-color: #fff;
     color: #2b1055;
+    font-weight: 500;
 }
 
 .parallax{
@@ -309,6 +310,12 @@ body {
     margin-top: 2rem;
 }
 
+.skills__paragraph{
+    font-size: 1.5rem;
+    color: #1c0522;
+    margin-bottom: 50px;
+}
+
 @media screen and (max-width: 768px){
     .skills{
         padding: 2px 25px;
@@ -321,6 +328,15 @@ body {
     .skill__icon{
         width: 100px;
     }
+
+    .skills__paragraph{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
 }
 
+.studys{
+    height: 100vh;
+    background-color: #2b1055;
+}
 
