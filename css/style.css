@@ -201,6 +201,9 @@ body{
         font-size: 3rem;
     }
     
+    .about__cv{
+        margin-bottom: 50px;
+    }
 }
 
 body {
@@ -283,6 +286,23 @@ body {
     padding: 5px 50px;
 }
 
+.skills__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill__icon{
+    width: 230px;
+    
+}
+
+.skill__img{
+    width: 80%;
+}
+
 .skills__title{
     font-size: 2rem;
     color: #1c0522;
@@ -294,5 +314,13 @@ body {
         padding: 2px 25px;
         text-align: left;
     }
+    .skills__container{
+        /* justify-content: center; */
+        justify-content: space-between;
+    }
+    .skill__icon{
+        width: 100px;
+    }
 }
+
 
