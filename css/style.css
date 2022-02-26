@@ -359,5 +359,39 @@ body {
 .studys{
     height: 100vh;
     background-color: #2b1055;
+    padding: 5px 50px;
 }
 
+.studys__title{
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #fcfcfc;
+    font-weight: 600;
+}
+
+.studys__subtitle{
+    font-size: 2rem;
+    font-style: italic;
+    color: #fcfcfc;
+    font-weight: 600;
+}
+
+.studys__paragraph{
+    font-size: 1.5rem;
+    color: #fcfcfc;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .studys{
+        padding: 2px 25px;
+        
+    }
+    .studys__subtitle{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+    .studys__paragraph{
+        font-size: 1rem;
+    }
+}
