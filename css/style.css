@@ -293,15 +293,30 @@ body {
     gap: 10px;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 .skill__icon{
-    width: 200px;
+    width: 196px;
+    height: 196px;
+    background-color: #1c0522;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     
 }
 
+.skill__text{
+    color: #fff;
+    font-size: 1rem;
+}
+
 .skill__img{
-    width: 80%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
 }
 
 .skills__title{
@@ -326,7 +341,13 @@ body {
         justify-content: space-between;
     }
     .skill__icon{
-        width: 100px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .skill__img{
+        width: 40px;
+        height: 40px;
     }
 
     .skills__paragraph{
