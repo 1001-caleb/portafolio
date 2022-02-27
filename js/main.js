@@ -56,6 +56,8 @@ menu.addEventListener("click", function(){
 
 window.sr = ScrollReveal();
 
-sr.reveal('.skill__img', {
-    duration: 3000
+sr.reveal('.skill__icon', {
+    duration: 2000,
+    origin: "bottom",
+    distance: "-10px"
 });
