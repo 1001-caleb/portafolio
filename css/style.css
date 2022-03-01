@@ -511,6 +511,25 @@ body {
     width: 100%;
 }
 
+.hireme__socials{
+    width: 225px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.hireme__link{
+    text-decoration: none;
+    color: #fcfcfc;
+    font-size: 1rem;
+}
+span{
+    font-size: 1rem;
+    color: #fcfcfc;
+    
+}
+
 @media screen and (max-width: 768px){
     .hireme{
         padding: 2px 25px;
