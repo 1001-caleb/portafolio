@@ -481,7 +481,8 @@ body {
     background: #1c0522;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    place-items: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .hireme__title{
@@ -514,8 +515,6 @@ body {
 .hireme__socials{
     width: 225px;
     display: flex;
-    align-items: center;
-    text-align: center;
     justify-content: space-between;
 }
 
@@ -534,12 +533,13 @@ span{
     .hireme{
         padding: 2px 25px;
         grid-template-columns: repeat(1, 1fr);
+        height: 50vh;
     }
     .hireme__title{
         font-size: 1.5rem;
     }
     .hireme__img-box{
-        width: 150px;
+        width: 190px;
     }
     .hireme__cta{
         padding: 3px 7px;
