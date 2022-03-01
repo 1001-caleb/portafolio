@@ -480,3 +480,9 @@ body {
     height: 30vh;
     background: #1c0522
 }
+
+@media screen and (max-width: 768px){
+    .hireme{
+        padding: 2px 25px;
+    }
+}
