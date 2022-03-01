@@ -459,6 +459,10 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 5px;
     }
+
+    .projects__card{
+        margin-bottom: 20px;
+    }
 }
 
 .card__img{
