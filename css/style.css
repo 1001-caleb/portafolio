@@ -478,11 +478,51 @@ body {
 .hireme{
     padding: 10px 50px;
     height: 30vh;
-    background: #1c0522
+    background: #1c0522;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.hireme__title{
+    color: #fcfcfc;
+    font-size: 2rem;
+}
+
+.hireme__cta{
+    text-decoration: none;
+    background-color: #fff;
+    color: #2b1055;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 6px 15px;
+    width: 170px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.hireme__img-box{
+    width: 250px;
+}
+
+.hireme__img{
+    width: 100%;
 }
 
 @media screen and (max-width: 768px){
     .hireme{
         padding: 2px 25px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hireme__title{
+        font-size: 1.5rem;
+    }
+    .hireme__img-box{
+        width: 150px;
+    }
+    .hireme__cta{
+        padding: 3px 7px;
     }
 }
