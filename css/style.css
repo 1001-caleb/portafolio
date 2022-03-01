@@ -412,3 +412,14 @@ body {
         width: 220px;
     }
 }
+
+.projects{
+    height: 100vh;
+    
+    background-color: #2b1055;
+}
+
+.hireme{
+    height: 30vh;
+    background: #1c0522
+}
