@@ -456,7 +456,7 @@ body {
     }
     .projects__cards{
         /* width: 80%; */
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
         grid-gap: 5px;
     }
 
@@ -467,7 +467,7 @@ body {
 
 .card__img{
     width: 100%;
-    border-radius: 16px;
+    border-radius:  16px 16px 0 0;
 }
 
 .card__text{
