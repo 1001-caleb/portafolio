@@ -417,12 +417,53 @@ body {
     height: 100vh;
     padding: 10px 50px;
     background-color: #2b1055;
+    
 }
 
 .projects__title{
     font-size: 2rem;
     margin-top: 2rem;
     font-weight: 600;
+    color: #fcfcfc;
+    padding-bottom: 20px;
+}
+
+.projects__cards{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+    
+}
+
+.projects__card{
+    cursor: pointer;
+    border-radius: 18px;
+    background: #fcfcfc;
+    transition: all .2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.projects__card:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px){
+    .projects{
+        padding: 2px 25px;
+    }
+    .projects__cards{
+        /* width: 80%; */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 5px;
+    }
+}
+
+.card__img{
+    width: 100%;
+    border-radius: 16px;
 }
 
 .card__text{
