@@ -409,7 +409,7 @@ body {
         font-size: 1rem;
     }
     .studys__img{
-        width: 220px;
+        display: none;
     }
 }
 
