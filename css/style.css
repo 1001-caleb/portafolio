@@ -484,7 +484,7 @@ body {
 
 .hireme{
     
-    height: 30vh;
+    height: 40vh;
     background: #1c0522;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
