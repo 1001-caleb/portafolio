@@ -15,7 +15,7 @@ body{
 }
 
 .hero__nav{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -523,6 +523,11 @@ body {
     width: 225px;
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+}
+
+.hireme__link:hover{
+    color: #7597de;
 }
 
 .hireme__link{
