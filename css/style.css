@@ -414,7 +414,7 @@ body {
 }
 
 .projects{
-    height: 100vh;
+   
     padding: 10px 50px;
     background-color: #2b1055;
     
@@ -454,6 +454,7 @@ body {
 @media screen and (max-width: 768px){
     .projects{
         padding: 2px 25px;
+        height: 200vh;
     }
     .projects__cards{
         /* width: 80%; */
