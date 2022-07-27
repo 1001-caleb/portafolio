@@ -15,7 +15,7 @@ body{
 }
 
 .hero__nav{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -335,6 +335,7 @@ body {
     .skills{
         padding: 2px 25px;
         text-align: left;
+        height: 120vh;
     }
     .skills__container{
         /* justify-content: center; */

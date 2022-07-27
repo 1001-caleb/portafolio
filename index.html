@@ -1,217 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2b1055">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2b1055" />
     <title>Caleb Parra portafolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
     <script src="./js/scrollreveal.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header class="hero">
-        <div id="nav__menu" class="nav__menu">
-            <img src="./img/menu.png" alt="" class="menu__img">
+      <div id="nav__menu" class="nav__menu">
+        <img src="./img/menu.png" alt="" class="menu__img" />
+      </div>
+
+      <nav class="hero__nav" id="hero__nav">
+        <div class="nav__logo">
+          <a href="#home" class="nav__img">Parra</a>
         </div>
 
-        <nav class="hero__nav" id="hero__nav">
-            <div class="nav__logo">
-                <a href="#home" class="nav__img">Parra</a>
-            </div>
-
-            <div class="nav__links">
-                <a href="#about" class="nav__cta">About me</a>
-                <a href="#skills" class="nav__cta">Skills</a>
-                <a href="#studys" class="nav__cta">Studys</a>
-                <a href="#projects" class="nav__cta">Projects</a>
-                <a href="#hireme" class="nav__cta">Hire me</a>
-            </div>
-        </nav>
+        <div class="nav__links">
+          <a href="#about" class="nav__cta">About me</a>
+          <a href="#skills" class="nav__cta">Skills</a>
+          <a href="#studys" class="nav__cta">Studys</a>
+          <a href="#projects" class="nav__cta">Projects</a>
+          <a href="#hireme" class="nav__cta">Hire me</a>
+        </div>
+      </nav>
     </header>
 
     <section class="parallax" id="home">
-        <img class="parallax__images" src="./img/stars.png" alt="" id="starts">
-        <img class="parallax__images" src="./img/moon.png" alt="" id="moon">
+      <img class="parallax__images" src="./img/stars.png" alt="" id="starts" />
+      <img class="parallax__images" src="./img/moon.png" alt="" id="moon" />
 
-        <img class="parallax__images" src="./img/mountains_behind.png" alt="" id="mountains_behind">
-        <h1 class="parallax__text" id="text">
-            Caleb Parra
-        </h1>
-        <a href="#about" class="parallax__btn" id="btn">
-            <svg class="arrows">
-                <path class="a1" d="M0 0 L30 32 L60 0"></path>
-                <path class="a2" d="M0 20 L30 52 L60 20"></path>
-                <path class="a3" d="M0 40 L30 72 L60 40"></path>
-            </svg>
-        </a>
-        <img class="parallax__images" src="./img/mountains_front.png" alt="" id="mountains_front">
-
+      <img
+        class="parallax__images"
+        src="./img/mountains_behind.png"
+        alt=""
+        id="mountains_behind"
+      />
+      <h1 class="parallax__text" id="text">Caleb Parra</h1>
+      <a href="#about" class="parallax__btn" id="btn">
+        <svg class="arrows">
+          <path class="a1" d="M0 0 L30 32 L60 0"></path>
+          <path class="a2" d="M0 20 L30 52 L60 20"></path>
+          <path class="a3" d="M0 40 L30 72 L60 40"></path>
+        </svg>
+      </a>
+      <img
+        class="parallax__images"
+        src="./img/mountains_front.png"
+        alt=""
+        id="mountains_front"
+      />
     </section>
 
     <section class="about" id="about">
-        <h2 class="about__title">
-            About me
-        </h2>
-        <p class="about__paragraph">
-            Estudiante de desarrollo en sistemas de la información, enfocado en desarrollo web Frontend y creación de
-            aplicaciones web responsive, PWA y SPA.
-            Conocimientos en Backend, creación de APIs y manejo de bases de datos.
-        </p>
-        <a href="https://drive.google.com/file/d/1q-0TKh4aTOPMNjntgpC8BFpHYanEg5N8/view?usp=sharing" target="_blank"
-            class="about__cv">Download CV</a>
+      <h2 class="about__title">About me</h2>
+      <p class="about__paragraph">
+        Estudiante de desarrollo en sistemas de la información, enfocado en
+        desarrollo web Frontend y creación de aplicaciones web responsive, PWA y
+        SPA. Conocimientos en Backend, creación de APIs y manejo de bases de
+        datos.
+      </p>
+      <a
+        href="https://www.notion.so/Caleb-Parra-51643c6978954d66952e829101e020c7"
+        target="_blank"
+        class="about__cv"
+        >See my CV
+      </a>
     </section>
 
     <section class="skills" id="skills">
-        <h2 class="skills__title">
-            Skills
-        </h2>
-        <p class="skills__paragraph">
-            Ademas de las hard skills adquiridas a lo largo de mis estudios he desarrollado la habilidad de trabajar en
-            equipo con el uso de metodologias agiles. Asi como el manejo de herramientas complementarias utiles para el
-            trabajo agil y en equipo y el desarrollo de interfaces de usuario.
-        </p>
-        <div class="skills__container">
-            <div class="skill__icon"><img src="./img/javascript.svg" alt="" class="skill__img">
-                <div class="skill__text">Javascript</div>
-            </div>
-            <div class="skill__icon"><img src="./img/css-3.svg" alt="" class="skill__img">
-                <div class="skill__text">CSS3</div>
-            </div>
-            <div class="skill__icon"><img src="./img/html-5.svg" alt="" class="skill__img">
-                <div class="skill__text">HTML5</div>
-            </div>
-            <div class="skill__icon"><img src="./img/react.svg" alt="" class="skill__img">
-                <div class="skill__text">React</div>
-            </div>
-            <div class="skill__icon"><img src="./img/java.svg" alt="" class="skill__img">
-                <div class="skill__text">Java</div>
-            </div>
-            <div class="skill__icon"><img src="./img/git-icon.svg" alt="" class="skill__img">
-                <div class="skill__text">Git</div>
-            </div>
-            <div class="skill__icon"><img src="./img/terminal.svg" alt="" class="skill__img">
-                <div class="skill__text">Terminal</div>
-            </div>
-            <div class="skill__icon"><img src="./img/mysql-icon.svg" alt="" class="skill__img">
-                <div class="skill__text">SQL</div>
-            </div>
+      <h2 class="skills__title">Skills</h2>
+      <p class="skills__paragraph">
+        Ademas de las hard skills adquiridas a lo largo de mis estudios he
+        desarrollado la habilidad de trabajar en equipo con el uso de
+        metodologias agiles. Asi como el manejo de herramientas complementarias
+        utiles para el trabajo agil y en equipo y el desarrollo de interfaces de
+        usuario.
+      </p>
+      <div class="skills__container">
+        <div class="skill__icon">
+          <img src="./img/javascript.svg" alt="" class="skill__img" />
+          <div class="skill__text">Javascript</div>
         </div>
+        <div class="skill__icon">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+            alt=""
+            class="skill__img"
+          />
+          <div class="skill__text">Typescript</div>
+        </div>
+        <div class="skill__icon">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+            alt=""
+            class="skill__img"
+          />
+          <div class="skill__text">PHP</div>
+        </div>
+        <div class="skill__icon">
+          <img src="./img/css-3.svg" alt="" class="skill__img" />
+          <div class="skill__text">CSS3</div>
+        </div>
+        <div class="skill__icon">
+          <img src="./img/html-5.svg" alt="" class="skill__img" />
+          <div class="skill__text">HTML5</div>
+        </div>
+        <div class="skill__icon">
+          <img src="./img/react.svg" alt="" class="skill__img" />
+          <div class="skill__text">React</div>
+        </div>
+        <div class="skill__icon">
+          <img src="./img/git-icon.svg" alt="" class="skill__img" />
+          <div class="skill__text">Git</div>
+        </div>
+        <div class="skill__icon">
+          <img src="./img/terminal.svg" alt="" class="skill__img" />
+          <div class="skill__text">Terminal</div>
+        </div>
+        <div class="skill__icon">
+          <img src="./img/mysql-icon.svg" alt="" class="skill__img" />
+          <div class="skill__text">SQL</div>
+        </div>
+        <div class="skill__icon">
+          <img
+            src="https://victorroblesweb.es/wp-content/uploads/2016/11/mongodb.png"
+            alt=""
+            class="skill__img"
+          />
+          <div class="skill__text">Mongo</div>
+        </div>
+      </div>
     </section>
 
     <section class="studys" id="studys">
-        <div class="studys__container1">
-            <h2 class="studys__title">
-                Studys
-            </h2>
-            <h3 class="studys__subtitle">
-                | Tecnologo en analisis y desarrollo en sistemas de la información - SENA
-            </h3>
-            <p class="studys__paragraph">
-                Mis primeros pasos en la programación, desde lo más básico, programando con pseudocodigo desde PSeint y
-                posteriormente desarrollando sistemas sencillos y aplicaciones de escritorio con JAVA en el ID NetBeans.
-            </p>
-            <h3 class="studys__subtitle">
-                | Oracle next education - Alura
-            </h3>
-            <p class="studys__paragraph">
-                Con una ruta de aprendizaje desde 0 formando nuestras Soft skills, fundamentos en programación, diseño
-                web y JAVA. Cómo plus pude escoger una ruta opcional en la cual me formé en bases de datos.
-            </p>
-        </div>
-        <div class="studys__container2">
-            <figure class="studys__img"><img src="./img/undraw_stars_re_6je7.svg" alt="" class="studys__pic"></figure>
-        </div>
-
+      <div class="studys__container1">
+        <h2 class="studys__title">Studys</h2>
+        <h3 class="studys__subtitle">
+          | Tecnologo en analisis y desarrollo en sistemas de la información -
+          SENA
+        </h3>
+        <p class="studys__paragraph">
+          Mis primeros pasos en la programación, desde lo más básico,
+          programando con pseudocodigo desde PSeint y posteriormente
+          desarrollando sistemas sencillos y aplicaciones de escritorio con JAVA
+          en el ID NetBeans.
+        </p>
+        <h3 class="studys__subtitle">| Oracle next education - Alura</h3>
+        <p class="studys__paragraph">
+          Con una ruta de aprendizaje desde 0 formando nuestras Soft skills,
+          fundamentos en programación, diseño web y JAVA. Cómo plus pude escoger
+          una ruta opcional en la cual me formé en bases de datos.
+        </p>
+      </div>
+      <div class="studys__container2">
+        <figure class="studys__img">
+          <img
+            src="./img/undraw_stars_re_6je7.svg"
+            alt=""
+            class="studys__pic"
+          />
+        </figure>
+      </div>
     </section>
 
     <section class="projects" id="projects">
-        <h2 class="projects__title">Projects</h2>
+      <h2 class="projects__title">Projects</h2>
 
-        <div class="projects__cards">
-            <div class="projects__card">
-                <a href="https://github.com/1001-caleb/portafolio"><img src="./img/portafolio.png" alt=""
-                        class="card__img"></a>
+      <div class="projects__cards">
+        <div class="projects__card">
+          <a href="https://github.com/1001-caleb/portafolio">
+            <img src="./img/portafolio.png" alt="" class="card__img" />
+          </a>
 
-                <p class="card__text">
-                   Mi portafolio de proyectos realizado con HTML Y CSS.
-                </p>
+          <p class="card__text">
+            Mi portafolio de proyectos realizado con HTML Y CSS.
+          </p>
 
-                <a href="https://github.com/1001-caleb/Hangman-game" class="card__btn">Ver repositorio.</a>
-            </div>
+          <a href="https://github.com/1001-caleb/Hangman-game" class="card__btn">
+            Ver repositorio.
+        </a>
+        </div>
 
-            <div class="projects__card">
-                <a href="https://github.com/1001-caleb/CRUDphp-Laravel-jetStream"><img src="./img/instructores.png" alt=""
-                        class="card__img"></a>
+        <div class="projects__card">
+            <a href="https://github.com/1001-caleb/discord-clone"
+              ><img src="./img/dsc-clone.png" alt="" class="card__img"
+            /></a>
+  
+            <p class="card__text">
+             Discord Clone
+            </p>
+  
+            <a href="https://discord-clone-aae32.web.app/" class="card__btn"
+              >Ver repositorio.</a
+            >
+          </div>
 
-                <p class="card__text">
-                   Aplicativo para listar instructores de mi institución, hecho con Laravel.
-                </p>
+        <div class="projects__card">
+          <a href="https://github.com/1001-caleb/CRUDphp-Laravel-jetStream"
+            ><img src="./img/instructores.png" alt="" class="card__img"
+          /></a>
 
-                <a href="https://github.com/1001-caleb/Hangman-game" class="card__btn">Ver repositorio.</a>
-            </div>
+          <p class="card__text">
+            Aplicativo para listar instructores de mi institución, hecho con
+            Laravel.
+          </p>
 
-            <div class="projects__card">
-                <a href="https://github.com/1001-caleb/AluraGeek"><img src="./img/AluraGeek.png" alt=""
-                        class="card__img"></a>
+          <a href="https://github.com/1001-caleb/Hangman-game" class="card__btn"
+            >Ver repositorio.</a
+          >
+        </div>
 
-                <p class="card__text">
-                   E-commerce realizado con Sass y javascript.
-                </p>
+        <div class="projects__card">
+          <a href="https://github.com/1001-caleb/AluraGeek"
+            ><img src="./img/AluraGeek.png" alt="" class="card__img"
+          /></a>
 
-                <a href="https://1001-caleb.github.io/AluraGeek/pages/index.html" class="card__btn">Ver repositorio.</a>
-            </div>
+          <p class="card__text">E-commerce realizado con Sass y javascript.</p>
 
-            <div class="projects__card">
-                <a href="https://1001-caleb.github.io/Decoder/"><img src="./img/proyecto1.png" alt=""
-                        class="card__img"></a>
+          <a
+            href="https://1001-caleb.github.io/AluraGeek/pages/index.html"
+            class="card__btn"
+            >Ver repositorio.</a
+          >
+        </div>
 
-                <p class="card__text">
-                    Encriptador de texto realizado con HTMl, CSS y JS.
-                </p>
+        <div class="projects__card">
+          <a href="https://1001-caleb.github.io/Decoder/"
+            ><img src="./img/proyecto1.png" alt="" class="card__img"
+          /></a>
 
-                <a href="https://github.com/1001-caleb/Decoder" class="card__btn">Ver repositorio.</a>
-            </div>
+          <p class="card__text">
+            Encriptador de texto realizado con HTMl, CSS y JS.
+          </p>
 
-
-            <div class="projects__card">
-                <a href="https://1001-caleb.github.io/Hangman-game/"><img src="./img/ahorcado.png" alt=""
-                        class="card__img"></a>
-
-                <p class="card__text">
-                    Juego del ahorcado realizado con HTML, CSS y JS.
-                </p>
-
-                <a href="https://github.com/1001-caleb/Hangman-game" class="card__btn">Ver repositorio.</a>
-            </div>
+          <a href="https://github.com/1001-caleb/Decoder" class="card__btn"
+            >Ver repositorio.</a
+          >
         </div>
 
 
+      </div>
     </section>
 
     <section class="hireme" id="hireme">
-        <div class="hireme__left">
-            <h2 class="hireme__title">Contact and work with me</h2>
+      <div class="hireme__left">
+        <h2 class="hireme__title">Contact and work with me</h2>
 
-            <a href="mailto:parra.code7@gmail.com" class="hireme__cta">Send me a mail</a>
+        <a href="mailto:parra.code7@gmail.com" class="hireme__cta"
+          >Send me a mail</a
+        >
 
-            <div class="hireme__socials">
-                <a href="https://biolink-parra.vercel.app/" class="hireme__link">Or through these networks</a>
-            </div>
+        <div class="hireme__socials">
+          <a href="https://biolink-parra.vercel.app/" class="hireme__link"
+            >Or through these networks</a
+          >
         </div>
-        <div class="hireme__rigth">
-            <figure class="hireme__img-box"><img src="./img/undraw_mailbox_re_dvds.svg" alt="" class="hireme__img">
-            </figure>
-        </div>
-
+      </div>
+      <div class="hireme__rigth">
+        <figure class="hireme__img-box">
+          <img
+            src="./img/undraw_mailbox_re_dvds.svg"
+            alt=""
+            class="hireme__img"
+          />
+        </figure>
+      </div>
     </section>
 
     <script src="./js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
